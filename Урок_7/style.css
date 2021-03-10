@@ -1,0 +1,188 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+	background-image: url(BMW.jpg);
+}
+#header{
+	display: flex;
+	justify-content: space-between;
+}
+ul{
+	color: white;
+	display: flex;
+	justify-content: center;
+	margin-right: -850px;
+	font-family: Arial;
+
+
+}
+li{
+	
+	list-style-type: none;
+	padding-top: 20px;
+	font-size: 20px;
+	margin-left: 50px
+
+}
+
+li:hover{
+	color:#D61D5B; 
+	list-style-type: none;
+	padding-top: 20px;
+	font-size: 20px;
+	margin-left: 50px
+
+}
+
+#header h1{
+	margin-left: 100px;
+	color: white;
+	font-family: Arial;
+}
+
+#header img{
+	width: 1%;
+	height: 1%;
+	padding-right: 60px;
+	padding-top: 38px;
+}
+
+
+
+#main{
+	margin-left: 100px;
+}
+
+
+
+#title{
+	color: white;
+	font-family: Arial;
+	font-size: 150%;
+	margin-top: 150px;
+}
+
+#main button{
+	width: 130px;
+	height: 40px;
+	color: white;
+	background-color: Transparent;
+	border: solid 3px #D61D5B;
+	border-radius: 5px; 
+	font-size: 20px;
+
+}
+
+#main button:hover{
+	width: 130px;
+	height: 40px;
+	color: white;
+	background-color: #D61D5B;
+	
+	border-radius: 5px; 
+}
+
+#content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 400px;
+	margin-bottom: 100px;
+	font-family: Arial;
+	
+
+}
+
+#b1{
+	color: white;
+	width: 400px;
+	height: 400px;
+	margin-left: 240px;
+
+	background-color: #1F1F1F;
+}
+
+#b1:hover{
+	color: white;
+	width: 400px;
+	height: 400px;
+	margin-left: 240px;
+
+	background-color:  #D61D5B;
+}
+
+#b2{
+	color: white;
+	width: 400px;
+	height: 400px;
+	background-color:  #1F1F1F;
+}
+
+#b2:hover{
+	color: white;
+	width: 400px;
+	height: 400px;
+	background-color:  #D61D5B;
+}
+
+
+#b3{
+	color: white;
+	width: 400px;
+	height: 400px;
+	margin-right: 240px;
+	background-color:  #1F1F1F;
+}
+
+#b3:hover{
+	color: white;
+	width: 400px;
+	height: 400px;
+	margin-right: 240px;
+	background-color:  #D61D5B;
+}
+
+#b1 h1{
+	padding-left: 40px;
+	padding-top: 60px;
+}
+#b1 p{
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+#b1 img{
+	width: 15%;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#b2 h1{
+	padding-left: 40px;
+	padding-top: 60px;
+}
+#b2 p{
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+#b2 img{
+	width: 15%;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#b3 h1{
+	padding-left: 40px;
+	padding-top: 60px;
+}
+#b3 p{
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+#b3 img{
+	width: 15%;
+	padding-top: 50px;
+	padding-left: 50px;
+}
